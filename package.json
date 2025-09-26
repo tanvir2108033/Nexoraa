@@ -1,9 +1,12 @@
 {
-  "name": "weather-app",
+  "homepage": "https://tanvir2108033.github.io/Nexoraa",
+  "name": "Nexoraa_weather",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

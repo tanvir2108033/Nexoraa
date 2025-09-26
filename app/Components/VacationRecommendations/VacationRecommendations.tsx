@@ -21,9 +21,9 @@ function VacationRecommendations() {
     const advice = {
       suitability: "",
       rating: 0,
-      recommendations: [],
-      essentials: [],
-      warnings: []
+      recommendations: [] as string[],
+      essentials: [] as string[],
+      warnings: [] as string[]
     };
 
     // Temperature-based recommendations
